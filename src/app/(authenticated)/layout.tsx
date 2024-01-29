@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <div className="flex min-h-screen flex-col antialiased">
       <Header />
-      <div className="flex flex-1 gap-4 p-8 pt-6">{children}</div>
+      <div className=" gap-4 p-8 pt-6">{children}</div>
     </div>
   )
 }
